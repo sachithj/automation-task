@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <parameter name="api-host" value="http://localhost:9090"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="host-url" value="http://localhost:4200/"/>
+    <test name="Test">
+        <classes>
+            <class name="automation.ApiTests"/>
+            <class name="automation.BookingTest"/>
+        </classes>
+    </test> 
+</suite> 

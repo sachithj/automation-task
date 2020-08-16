@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "date": {
+      "type": "string"
+    },
+    "rooms_available": {
+      "type": "integer"
+    },
+    "price": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "date",
+    "rooms_available",
+    "price"
+  ]
+}
